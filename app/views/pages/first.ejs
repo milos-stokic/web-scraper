@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <% include ../partial/head %>
+</head>
+<body>
+    <div class="container">
+        <form action="/analyse" style="margin-top:40px" method="POST">
+          <div class="form-group">
+            <label for="email">Enter SiteUrl:</label>
+            <input type="text" class="form-control" id="siteUrl" placeholder="ex:https://www.mongodb.com" name="siteUrl">
+          </div>
+          <button type="submit" class="btn btn-primary">Analyse</button>
+        </form>
+      </div>
+</body>

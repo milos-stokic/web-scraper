@@ -1,0 +1,38 @@
+{
+  "name": "app",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "server": "node ./bin/www",
+    "client": "cd frontend && npm start",
+    "test": "jest --watchAll"
+  },
+  "dependencies": {
+    "camelcase": "^5.3.1",
+    "cheerio": "^1.0.0-rc.3",
+    "concurrently": "^5.0.0",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "ejs": "^2.7.1",
+    "express": "~4.16.1",
+    "html-validator": "^4.1.1",
+    "http-errors": "~1.6.3",
+    "jade": "~1.11.0",
+    "morgan": "~1.9.1",
+    "node-fetch": "^2.6.0",
+    "probe-image-size": "^5.0.0",
+    "request": "^2.88.0",
+    "valid-url": "^1.0.9",
+    "xml2js": "^0.4.22",
+    "xmldom": "^0.1.27"
+  },
+  "main": "app.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "jest": "^24.9.0"
+  }
+}
